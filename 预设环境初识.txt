@@ -1,0 +1,5 @@
+1 zookeeper	1,2,3号安装在/usr/local下，	4,5号没有安装
+2 hadoop	4,5号安装在/usr/local下，	5号机器为master，secondaryNameNode进程在master节点运行
+3 java		1,2,3,4,5都有安装在/usr/java下	版本为jdk1.8.0_144
+4 scala		1,2,3没有安装			4,5安装在usr/local下，版本为2.11.8
+5 broker.id	1号2,2号3,3号1

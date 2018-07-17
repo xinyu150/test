@@ -1,0 +1,32 @@
+2018-07-17 11:23:08,561 [myid:] - INFO  [main:QuorumPeerConfig@134] - Reading configuration from: /usr/local/zookeeper-3.4.10/bin/../conf/zoo.cfg
+2018-07-17 11:23:08,573 [myid:] - INFO  [main:QuorumPeer$QuorumServer@167] - Resolved hostname: 10.150.180.109 to address: /10.150.180.109
+2018-07-17 11:23:08,573 [myid:] - INFO  [main:QuorumPeer$QuorumServer@167] - Resolved hostname: 10.150.180.108 to address: /10.150.180.108
+2018-07-17 11:23:08,573 [myid:] - INFO  [main:QuorumPeer$QuorumServer@167] - Resolved hostname: 0.0.0.0 to address: /0.0.0.0
+2018-07-17 11:23:08,574 [myid:] - INFO  [main:QuorumPeerConfig@396] - Defaulting to majority quorums
+2018-07-17 11:23:08,576 [myid:1] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2018-07-17 11:23:08,577 [myid:1] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2018-07-17 11:23:08,577 [myid:1] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2018-07-17 11:23:08,587 [myid:1] - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
+2018-07-17 11:23:08,596 [myid:1] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
+2018-07-17 11:23:08,609 [myid:1] - INFO  [main:QuorumPeer@1134] - minSessionTimeout set to -1
+2018-07-17 11:23:08,609 [myid:1] - INFO  [main:QuorumPeer@1145] - maxSessionTimeout set to -1
+2018-07-17 11:23:08,609 [myid:1] - INFO  [main:QuorumPeer@1419] - QuorumPeer communication is not secured!
+2018-07-17 11:23:08,609 [myid:1] - INFO  [main:QuorumPeer@1448] - quorum.cnxn.threads.size set to 20
+2018-07-17 11:23:08,612 [myid:1] - INFO  [main:QuorumPeer@624] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2018-07-17 11:23:08,617 [myid:1] - INFO  [main:QuorumPeer@639] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2018-07-17 11:23:08,638 [myid:1] - INFO  [ListenerThread:QuorumCnxManager$Listener@739] - My election bind port: /0.0.0.0:3888
+2018-07-17 11:23:08,645 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer@865] - LOOKING
+2018-07-17 11:23:08,646 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@818] - New election. My id =  1, proposed zxid=0x0
+2018-07-17 11:23:08,651 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 1 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEpoch) LOOKING (my state)
+2018-07-17 11:23:08,652 [myid:1] - INFO  [WorkerSender[myid=1]:QuorumCnxManager@337] - Have smaller server identifier, so dropping the connection: (2, 1)
+2018-07-17 11:23:08,654 [myid:1] - INFO  [WorkerSender[myid=1]:QuorumCnxManager@337] - Have smaller server identifier, so dropping the connection: (3, 1)
+2018-07-17 11:23:08,654 [myid:1] - INFO  [/0.0.0.0:3888:QuorumCnxManager$Listener@746] - Received connection request /10.150.180.108:40264
+2018-07-17 11:23:08,656 [myid:1] - INFO  [/0.0.0.0:3888:QuorumCnxManager$Listener@746] - Received connection request /10.150.180.109:44102
+2018-07-17 11:23:08,657 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x0 (n.peerEpoch) LOOKING (my state)
+2018-07-17 11:23:08,658 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEpoch) LOOKING (my state)
+2018-07-17 11:23:08,658 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEpoch) LOOKING (my state)
+2018-07-17 11:23:08,660 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LEADING (n.state), 3 (n.sid), 0x0 (n.peerEpoch) LOOKING (my state)
+2018-07-17 11:23:08,660 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LEADING (n.state), 3 (n.sid), 0x0 (n.peerEpoch) LOOKING (my state)
+2018-07-17 11:23:08,661 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 2 (n.sid), 0x0 (n.peerEpoch) LOOKING (my state)
+2018-07-17 11:23:08,862 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer@935] - FOLLOWING
+2018-07-17 11:23:08,865 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Learner@86] - TCP NoDelay set to: true
